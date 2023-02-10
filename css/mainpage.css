@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+body{
+    margin:0;
+    padding:0;
+}
+body{
+    font:400 16px/1.5 "Lora",serif;
+    color:#111;
+    background-color:#fdfdfd;
+    -webkit-text-size-adjust:100%;
+    -webkit-font-feature-settings:"kern" 1;
+    -moz-font-feature-settings:"kern" 1;
+    -o-font-feature-settings:"kern" 1;
+    font-feature-settings:"kern" 1;
+    font-kerning:normal;
+}
+
+
+.site-header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 55px;
+    max-height: 60px;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-bar{
+    max-width:-webkit-calc(800px - (30px * 2));
+    max-width:calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 55px;
+    max-height: 60px;
+    align-items: center;
+}
+.site-title{
+    font-size:26px;
+    font-weight:400;
+    margin-bottom:0;
+    float:left;
+}
+
+.site-title,.site-title:visited{
+    color:#424242;
+    text-decoration: none; 
+}
+.site-title:hover {
+    text-decoration: underline;
+}
+
+.trigger{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 0;
+    float: right;
+    display: flex;
+    gap: 10px;
+}
+.trigger,.trigger:visited, .trigger a{
+    color:#424242;
+    text-decoration: none; 
+}
+.trigger a:hover{
+    text-decoration: underline;
+}
+
+.page-content{
+    padding:30px 0;
+}
+
+
+.wrapper{
+    max-width:-webkit-calc(800px - (30px * 2));
+    max-width:calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-footer{
+
+    border-top: 1px solid #e8e8e8;
+}
+
+.footer-wrapper{
+    max-width:-webkit-calc(800px - (30px * 2));
+    max-width:calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.contact-list{
+    padding: 0px;
+    list-style-type: none;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+}
+.icon-image{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.footer-col-wrapper{
+    font-size:15px;
+    color:#828282;
+}
+
+.footer-col-1{
+    width:-webkit-calc(35% - (30px / 2));
+    width:calc(35% - (30px / 2));
+}
+
+.post-content p a, .post-content ul li a, .footer-col-1 ul li a {
+    color: rgb(66, 0, 249);
+}
