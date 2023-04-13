@@ -12,10 +12,10 @@ app.get("/list100", function (req, res) {
   res.sendFile(__dirname + "/list100.html");
 });
 app.get("/blog", function (req, res) {
-  res.sendFile(__dirname + "/book.html");
+  res.sendFile(__dirname + "/blog.html");
 });
 app.get("/books", function (req, res) {
-  res.sendFile(__dirname + "/books.html");
+  res.sendFile(__dirname + "/book.html");
 });
 
 app.listen(3000, function () {
